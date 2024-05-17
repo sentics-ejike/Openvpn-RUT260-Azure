@@ -1,9 +1,8 @@
-# Install OpenVPN on Ubuntu
 # As always, first make sure that your system has up-to-date packages.
 
 `sudo apt update`
 `sudo apt upgrade`
-# Next, install required dependencies.
+# Next, install the required dependencies.
 
 `sudo apt install ca-certificates wget net-tools gnupg`
 # Add the OpenVPN server to your repository list.
