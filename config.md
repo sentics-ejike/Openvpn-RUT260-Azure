@@ -14,7 +14,8 @@
 # Now, you can proceed with updating the package lists and installing OpenVPN Access Server using the following commands:
 `sudo apt update`
 `sudo apt install openvpn-as`
-########################################################
+
+
 #FOR DEPENDENCY ISSUE, 
 #ADD focal-security repository to resolve a specific dependency issue,
 `echo "deb http://security.ubuntu.com/ubuntu focal-security main" | sudo tee /etc/apt/sources.list.d/focal-security.list`
