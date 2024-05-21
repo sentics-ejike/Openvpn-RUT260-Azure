@@ -7,7 +7,7 @@
 `sudo apt install ca-certificates wget net-tools gnupg`
 # Add the OpenVPN server to your repository list.
 `sudo wget -qO - https://as-repository.openvpn.net/as-repo-public.gpg | sudo apt-key add -`
-#OK
+# OK
 
 `echo "deb http://as-repository.openvpn.net/as/debian focal main" | sudo tee /etc/apt/sources.list.d/openvpn-as-repo.list`
 
@@ -16,8 +16,7 @@
 `sudo apt install openvpn-as`
 
 
-#FOR DEPENDENCY ISSUE, 
-#ADD focal-security repository to resolve a specific dependency issue,
+# FOR DEPENDENCY ISSUE, ADD focal-security repository to resolve a specific dependency issue,
 `echo "deb http://security.ubuntu.com/ubuntu focal-security main" | sudo tee /etc/apt/sources.list.d/focal-security.list`
 
 `sudo apt-get update`
@@ -28,7 +27,7 @@
 `sudo apt update`
 `sudo apt install openvpn-as`
 
-#REMOVE OPENVPN 
+# REMOVE OPENVPN 
 `sudo apt remove openvpn-as`
 `sudo rm -rf /usr/local/openvpn_as`
 
@@ -36,7 +35,7 @@
 
 
 
-Access Server Web UIs are available here:
+# Access Server Web UIs are available here:
 Admin  UI: https://10.100.3.4:943/admin
 Client UI: https://10.100.3.4:943/
 
